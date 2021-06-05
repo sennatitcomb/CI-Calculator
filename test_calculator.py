@@ -12,4 +12,7 @@ class TestCalculatorApp:
         assert 5 == calculator.sub(10, 5)
 
     def test_multiply(self):
-        assert 4 == calculator.test_multiply(2, 2)
+        assert 4 == calculator.multiply(2, 2)
+
+    def test_divide(self):
+        assert 8 == calculator.divide(16, 2)
